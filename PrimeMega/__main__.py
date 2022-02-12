@@ -444,7 +444,7 @@ def prime_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Support", url="t.me/pinkymeksch"),
-                    InlineKeyboardButton(text="Updates", url="t.me/RuangTerbukaa),
+                    InlineKeyboardButton(text="Updates", url="t.me/RuangTerbukaa"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
