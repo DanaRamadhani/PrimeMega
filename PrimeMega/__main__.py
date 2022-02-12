@@ -103,9 +103,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴍᴜsɪᴄ", url="https://telegra.ph/Ultroid-02-12-3"
+        InlineKeyboardButton(text="ᴄᴏᴍᴀɴᴅs ᴍᴜsɪᴄ?", url="https://telegra.ph/Ultroid-02-12-3"
         ),
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴀɴᴅs❔", callback_data="help_back"
+        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴀɴᴅs?", callback_data="help_back"
         ),
     ],
 ]
