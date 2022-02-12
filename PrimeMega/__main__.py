@@ -92,18 +92,18 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Prime Mega to your group ➕️", url="t.me/PinkyMeksRobot?startgroup=true"
+            text="💦 ᴀᴅᴅ PINKYMEKSID ᴛᴏ ʏᴏᴜʀ ɢʀᴜʙ💦", url="t.me/PinkyMeksRobot?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="Support", url="https://t.me/pinkymeksch"
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/pinkymeksch"
         ),
         InlineKeyboardButton(
-            text="TryInline", switch_inline_query_current_chat=""
+            text="ᴛʀʏ ɪɴʟɪɴᴇ", switch_inline_query_current_chat=""
         ),
     ],
     [
-        InlineKeyboardButton(text="Help & Commands❔", callback_data="help_back"
+        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴀɴᴅs❔", callback_data="help_back"
         ),
     ],
 ]
