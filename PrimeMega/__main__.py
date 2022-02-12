@@ -81,10 +81,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[Prime Mega](https://t.me/PrimeMegaBot)」───
+ ───「[PINKYMEKSID](https://t.me/PinkyMeksRobot)」───
 *Hello {} !*
 ────────────────────────
-PrimeMega a powerful group management bot built to help you manage your group!
+PINKYMEKSID a powerful group management bot built to help you manage your group!
 ────────────────────
 Hit the /help or tap on button to se available command on me.
 """
@@ -92,11 +92,11 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Prime Mega to your group ➕️", url="t.me/PrimeMegaBot?startgroup=true"
+            text="➕️ Add Prime Mega to your group ➕️", url="t.me/PinkyMeksRobot?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="Support", url="https://t.me/PrimeSupportGroup"
+        InlineKeyboardButton(text="Support", url="https://t.me/pinkymeksch"
         ),
         InlineKeyboardButton(
             text="TryInline", switch_inline_query_current_chat=""
@@ -115,7 +115,7 @@ Click on the button bellow to get description about specifics command."""
 PRIME_IMG = "https://telegra.ph/file/b9fa4e1360d0a872a3cd5.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @Bukan_guudlooking \
+ You can support the project by contacting @anakbabiiik \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -362,15 +362,15 @@ def prime_about_callback(update, context):
     query = update.callback_query
     if query.data == "prime_":
         query.message.edit_text(
-            text="๏ I'm *Prime Mega*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *PINKYMEKSID*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_PrimeMega's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for PrimeMega.",
+            "\n\n_PINKYMEKSID's licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for PINKYMEKSID.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -437,14 +437,14 @@ def prime_about_callback(update, context):
         )
     elif query.data == "prime_support":
         query.message.edit_text(
-            text="*๏ PrimeMega support chats*"
+            text="*๏ PINKYMEKSID support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on PrimeMega.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/PrimeSupportGroup"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/PrimeSupportChannel"),
+                    InlineKeyboardButton(text="Support", url="t.me/pinkymeksch"),
+                    InlineKeyboardButton(text="Updates", url="t.me/pinkymeksch"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
@@ -457,13 +457,13 @@ def prime_about_callback(update, context):
 
     elif query.data == "prime_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for primeMega</b>\n"
-            f"\nHere Developers Making The PrimeMegaRobot",
+            text=f"<b>๏ Credis for PINKYMEKSID</b>\n"
+            f"\nHere Developers Making The PINKYMEKSID",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Tonic", url="t.me/Bukan_guudlooking"),
+                    InlineKeyboardButton(text="baby", url="t.me/anakbabiiik"),
                     InlineKeyboardButton(text="x~b", url="t.me/Xbarok"),
                  ],
                  [
@@ -742,7 +742,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1606221784:
+        if OWNER_ID != 1972682280:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
